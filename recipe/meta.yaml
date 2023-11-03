@@ -12,7 +12,6 @@ source:
 build:
   number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
- 
 requirements:
   build:
     - {{ compiler('cxx') }}
@@ -46,7 +45,7 @@ about:
     data model for multiple supported data formats. MDAL is used by QGIS
     for data access for mesh layers. This package provides the Python
     integration for MDAL.
-  doc_url:  https://virgis-team.github.io/mdal-python/html/index.html
+  doc_url: https://virgis-team.github.io/mdal-python/html/index.html
   dev_url: https://github.com/ViRGIS-Team/mdal-python
 
 extra:
